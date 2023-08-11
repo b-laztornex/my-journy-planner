@@ -12,6 +12,10 @@ you can find the neccesari files in the lib folder explained below:
   - main.dart contain the main ui components that will be show in the app
   - moder.dart all models neccesary to represent the data retrive when the api/endpoint is called
 
+## About Solution
+
+this app count with 3 steps, the first step allow the user to put a string and subsequently on click, will get the response from the server that will load in form of a list. on click one element of the list, the last step will show with all the details that are associated with that location that was clicked. geolocation services were used in order to load proper lan and long in the map since i experience issues triying to use the coordinates included in the response for each location.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
